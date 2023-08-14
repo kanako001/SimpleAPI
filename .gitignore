@@ -1,0 +1,92 @@
+# Ignore compiled output, binaries, and generated files
+bin/
+obj/
+out/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.jar
+
+# Ignore package managers
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Ignore Visual Studio Code
+.vscode/
+
+# Ignore IntelliJ IDEA
+.idea/
+
+# Ignore Eclipse
+.classpath
+.project
+.settings/
+target/
+
+# Ignore build tools
+build/
+Makefile
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore system files
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled Ruby files
+*.gem
+*.rbc
+/coverage/
+/spec/tmp/
+**.orig
+
+# Ignore LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.gz
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# Ignore Composer dependencies
+vendor/
+
+# Ignore NuGet packages
+packages/
+
+# Ignore Maven dependencies
+target/
+lib/
